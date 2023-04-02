@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My App</title>
+</head>
+<body>
+	<h1>Welcome to my app!</h1>
+	<% if (!user) { %>
+		<a href="/register">Register</a> | <a href="/login">Login</a>
+	<% } else { %>
+		<p>Hello <%= user.email %>!</p>
+		<form action="/logout" method="post">
+			<button type="submit">Logout</button>
+		</form>
+	<% } %>
+</body>
+</html>
