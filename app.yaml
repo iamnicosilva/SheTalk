@@ -1,0 +1,9 @@
+runtime: nodejs16
+
+env_variables:
+  DATA_BACKEND: datastore
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always

@@ -1,0 +1,20 @@
+{
+  "name": "she-talk",
+  "version": "1.0.0",
+  "description": "Aplicación SheTalk para protección contra la inseguridad en casos de acoso hacia las mujeres",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "@google-cloud/datastore": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
