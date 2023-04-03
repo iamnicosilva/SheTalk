@@ -1,5 +1,5 @@
 {
-  "name": "she-talk",
+  "name": "shetalk",
   "version": "1.0.0",
   "description": "Aplicación SheTalk para protección contra la inseguridad en casos de acoso hacia las mujeres",
   "main": "server.js",
@@ -10,11 +10,24 @@
     "node": "16.x"
   },
   "dependencies": {
+    "@google-cloud/datastore": "^6.0.0",
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "@google-cloud/datastore": "^6.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "morgan": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamnicosilva/SheTalk.git"
+  },
+  "keywords": [
+    "shetalk93"
+  ],
+  "author": "Nicolas Silva",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/iamnicosilva/SheTalk/issues"
+  },
+  "homepage": "https://github.com/iamnicosilva/SheTalk#readme"
 }

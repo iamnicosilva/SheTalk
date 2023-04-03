@@ -1,4 +1,4 @@
-const {Datastore} = require('@google-cloud/datastore');
+import { Datastore } from '@google-cloud/datastore';
 const datastore = new Datastore();
 
 class User {
@@ -33,4 +33,4 @@ class User {
   }
 }
 
-module.exports = User;
+export default User;
