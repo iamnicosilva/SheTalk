@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const jwt = require('jsonwebtoken');
-const datastore = require('@google-cloud/datastore')();
+const datastore = require('@google-cloud/datastore');
 
 const app = express();
 
